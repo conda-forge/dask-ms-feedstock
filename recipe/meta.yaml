@@ -1,5 +1,5 @@
 {% set name = "dask-ms" %}
-{% set version = "0.2.4" %}
+{% set version = "0.2.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 31537be0fe0c7c82450336600a939d0538d59a670fc3fd4c00b093810226a48a
+  sha256: 2387d2d8a76565fe55e883806222f3505af5e9279f28a2b03dc2bd5a8971300b
 
 build:
   skip: true  # [win]
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -39,7 +39,7 @@ about:
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
-  summary: 'Implementation of a dask/xarray dataset backed by a CASA MS'
+  summary: Implementation of a dask/xarray dataset backed by a CASA MS
 
 extra:
   recipe-maintainers:
