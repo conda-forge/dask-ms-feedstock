@@ -10,19 +10,19 @@ source:
   sha256: b2d10a20dce0bce11ef3764740ff5353922f780dca35e088e07fb78ef58516c0
 
 build:
-  skip: true  # [win]
   number: 2
+  noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
-    - python
+    - python >=3.6
     - pip
   run:
-    - python
+    - python >=3.6
     - dask >=2.2.0
     - numpy >=1.14.0
-    - python-casacore >=3.2.0
+    - python-casacore >=3.3.1
     - xarray >0.12.0
 
 test:
