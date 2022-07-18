@@ -145,4 +145,5 @@ Feedstock Maintainers
 
 * [@JSKenyon](https://github.com/JSKenyon/)
 * [@sebastian-luna-valero](https://github.com/sebastian-luna-valero/)
+* [@sjperkins](https://github.com/sjperkins/)
 
