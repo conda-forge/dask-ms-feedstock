@@ -1,5 +1,5 @@
 {% set name = "dask-ms" %}
-{% set version = "0.2.10" %}
+{% set version = "0.2.11" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 5af50ccfd7967fd1e6e24e1223da8af17eabf462cc99849745c51a4e8dab9883
+  sha256: 7c2fe4c0ed63a06c2b777065e5f90b55db520cfa348293e6504832c907375b60
 
 build:
   number: 0
@@ -19,10 +19,15 @@ requirements:
     - python >=3.6
     - pip
   run:
+    - appdirs
+    - donfig
     - python >=3.6
     - dask >=2.2.0
     - numpy >=1.14.0
     - python-casacore >=3.3.1
+    - s3fs
+    - pyarrow >=3.0.0
+    - zarr >=2.6.1
     - xarray >0.12.0
 
 test:
