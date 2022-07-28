@@ -19,6 +19,7 @@ requirements:
     - python >=3.6
     - pip
   run:
+    - appdirs
     - donfig
     - python >=3.6
     - dask >=2.2.0
