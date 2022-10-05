@@ -15,10 +15,10 @@ build:
   script: poetry install -E complete
 
 requirements:
+  pip:
+    - poetry >=1.2
   host:
     - python >=3.8
-    - pip:
-      - poetry==1.2
   run:
     - appdirs
     - donfig
