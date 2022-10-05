@@ -16,9 +16,9 @@ build:
 
 requirements:
   host:
-    - python >=3.6
+    - python >=3.8
     - pip
-    - poetry >=1.2
+    - poetry >=1.1
   run:
     - appdirs
     - donfig
