@@ -12,14 +12,13 @@ source:
 build:
   number: 0
   noarch: python
-  script: poetry install -E complete
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
-  pip:
-    - poetry >=1.2
   host:
     - python >=3.8
-  run:
+    - pip
+run:
     - appdirs
     - donfig
     - python >=3.8
