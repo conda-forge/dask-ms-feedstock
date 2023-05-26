@@ -1,11 +1,11 @@
-About dask-ms
-=============
+About dask-ms-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dask-ms-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/ska-sa/dask-ms
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dask-ms-feedstock/blob/main/LICENSE.txt)
 
 Summary: Implementation of a dask/xarray dataset backed by a CASA MS
 
