@@ -1,5 +1,5 @@
 {% set name = "dask-ms" %}
-{% set version = "0.2.17" %}
+{% set version = "0.2.18" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 946a1f39d800930e20c68c9244dd3e42be355e5b0a35302fabe35c3426047777
+  sha256: c2efa3f4039eb12b038d7acd240cc82d7b6c1fd23b1f3d6aea08cdaad34c4da0
 
 build:
   number: 0
