@@ -39,6 +39,8 @@ test:
     - ${PYTHON} -c "from daskms import xds_from_table"
     - ${PYTHON} -c "from daskms import xds_to_table"
     - ${PYTHON} -c "from daskms import TableProxy"
+  requires:
+    - python {{ python_min }}
 
 about:
   home: https://github.com/ska-sa/dask-ms
