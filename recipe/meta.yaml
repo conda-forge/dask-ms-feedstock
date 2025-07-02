@@ -23,7 +23,7 @@ requirements:
     - appdirs
     - donfig
     - python >={{ python_min }}
-    - dask >=2024.1.0, <2024.11.0
+    - dask >=2024.1.0,<2024.11.0
     - numpy >=2.0.0
     - python-casacore >=3.6.1
     - s3fs >=2024.1.0
