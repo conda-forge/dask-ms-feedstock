@@ -1,13 +1,13 @@
 {% set name = "dask-ms" %}
-{% set version = "0.2.32" %}
+{% set version = "0.3.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: db26ca2baeb179c4ddda2424cf9ab2f24380df9ce9c39f53afdf1db70dfb6991
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: a78d530d78ff16780e17306169969bc3f07b4a019d232b5a380686c123d3d5e9
 
 build:
   number: 0
